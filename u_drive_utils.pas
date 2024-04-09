@@ -93,7 +93,7 @@ implementation
         FindClose(SRec);
       {$I+}
       case res of
-         0     : Result := 0;
+         0     : Result := 0; //
          2,18  : Result := 1;
          21,3  : Result := 2;
       else
