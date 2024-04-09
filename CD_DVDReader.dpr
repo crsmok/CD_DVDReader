@@ -2,7 +2,8 @@ program CD_DVDReader;
 
 uses
   Vcl.Forms,
-  u_main in 'u_main.pas' {Form1};
+  u_main in 'u_main.pas' {Form1},
+  u_drive_utils in 'u_drive_utils.pas';
 
 {$R *.res}
 
